@@ -444,7 +444,7 @@ aside.aside-left {
   background-color: #fff !important;
 }
 .background-primary, .primary-color-primary .background-primary {
-  background-color: #28a5df !important; 
+  background-color: #32CD32 !important;
 }
 .background-dark, .primary-color-dark .background-primary {
   background-color: #454545 !important; 
@@ -1819,8 +1819,8 @@ nav.fixed .left-menu, nav.fixed .right-menu {
 
 /* Menu dott color */
 .background-white-dott .top-nav > ul > li > a::before, .primary-color-white .background-primary-dott .top-nav > ul > li > a::before {background: #fff none repeat scroll 0 0;}
-.background-primary-dott .top-nav > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > ul > li > a::before {background: #28a5df none repeat scroll 0 0;} 
-.background-dark-dott .top-nav > ul > li > a::before, .primary-color-dark .background-primary-dott .top-nav > ul > li > a::before {background: #434343 none repeat scroll 0 0;}
+.background-primary-dott .top-nav > ul > li > a::before, .primary-color-primary .background-primary-dott .top-nav > ul > li > a::before {background: #32CD32 none repeat scroll 0 0;}
+.background-dark-dott .top-nav > ul > li > a::before, .primary-color-dark .background-primary-dott .top-nav > ul > li > a::before {background: #32CD32 none repeat scroll 0 0;}
 
 /* Menu font color */
 .background-white-dott .top-nav > ul ul li.active-item > a, .primary-color-white .background-primary-dott .top-nav > ul ul li.active-item > a,

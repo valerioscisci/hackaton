@@ -1,14 +1,29 @@
 from django import forms
-from .models import Utente
+from .models import User, Utente
 
-class SingUpForm(forms.ModelForm):
+class SignUpForm(forms.ModelForm):
     class Meta:
-        model = Utente
-        fields = ('codiceU', 'username', 'password',)
+        model = User
+        fields = ('username', 'password', 'first_name', 'last_name', 'email',)
 
         widgets = {
-
-            'codiceU': forms.TextInput(attrs={'class': 'required'}),
             'username': forms.TextInput(attrs={'class': 'required'}),
             'password': forms.PasswordInput(attrs={'class': 'required'}),
+            'first_name': forms.TextInput(attrs={'class': 'notrequired'}),
+            'last_name': forms.TextInput(attrs={'class': 'notrequired'}),
+            'email': forms.EmailInput(attrs={'class': 'required'}),
+        }
+
+class SignUp2Form(forms.ModelForm):
+    class Meta:
+        model = Utente
+        fields = ('codice_utente', 'citta', 'cap', 'via', 'tipologia','n_componenti','punti',)
+
+        widgets = {
+            'codice_utente': forms.TextInput(attrs={'class': 'required'}),
+            'citta': forms.TextInput(attrs={'class': 'notrequired'}),
+            'cap': forms.NumberInput(attrs={'class': 'notrequired'}),
+            'via': forms.TextInput(attrs={'class': 'notrequired'}),
+            'tipologia': forms.Select(attrs={'class': 'notrequired'}),
+            'n_componenti': forms.NumberInput(attrs={'class': 'notrequired'}),
         }

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ block.super }} - Chi Siamo{% endblock title %}
+
+{% block css %}
+
+{% endblock css %}
+
+{% block content %}
+
+<main role="main">
+    <!-- Header -->
+    <header class="section-top-padding background-image text-center" style="background-image:url({% static 'rewind/img/img.jpg' %})">
+        <h1 class="text-middle text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-40 margin-top-130">
+            Test Title
+        </h1>
+
+        <!-- white full width arrow object -->
+        <img class="arrow-object" src="{% static 'rewind/img/arrow-object-white.svg' %}" alt="">
+    </header>
+
+</main>
+
+{% endblock content %}
+
+{% block js %}
+
+{% endblock js %}

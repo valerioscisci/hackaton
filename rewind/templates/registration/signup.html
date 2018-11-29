@@ -10,7 +10,7 @@
 
 <main role="main">
     <!-- Header -->
-    <header class="padding-3x background-image text-center" style="background-color: #CE1B12">
+    <header class="padding-3x background-image text-center" style="background-color: #228B22">
 
     </header>
 
@@ -27,7 +27,7 @@
             <div class="margin padding-2x">
                 <div class="s-12 m-10 l-8 center background-grey padding">
                     <h3 class="text-size-30 margin-bottom-40 text-center"><b>Sing Up Form</b></h3>
-                    <form class="customform" method="post" enctype="multipart/form-data" action="{% url 'singup' %}">{% csrf_token %}
+                    <form class="customform" method="post" enctype="multipart/form-data" action="{% url 'signup' %}">{% csrf_token %}
                         <div class="line">
                             <div class="margin">
                                 <table class="background-grey">
@@ -36,6 +36,10 @@
                                             {{ form.username.errors }}
                                             {{ form.username.label_tag }} {{ form.username }}
                                         </td>
+                                        <td class="fieldWrapper">
+                                            {{ form.email.errors }}
+                                            {{ form.email.label_tag }} {{ form.email }}
+                                         </td>
                                     </tr>
                                      <tr>
                                         <td class="fieldWrapper">
@@ -54,8 +58,42 @@
                                     </tr>
                                     <tr>
                                         <td class="fieldWrapper">
-                                            {{ form.codiceU.errors }}
-                                            {{ form.codiceU.label_tag }} {{ form.codiceU }}
+                                            {{ form.first_name.errors }}
+                                            {{ form.first_name.label_tag }} {{ form.first_name }}
+                                        </td>
+                                        <td class="fieldWrapper">
+                                            {{ form.last_name.errors }}
+                                            {{ form.last_name.label_tag }} {{ form.last_name }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fieldWrapper">
+                                            {{ form2.codice_utente.errors }}
+                                            {{ form2.codice_utente.label_tag }} {{ form2.codice_utente }}
+                                        </td>
+                                        <td class="fieldWrapper">
+                                            {{ form2.citta.errors }}
+                                            {{ form2.citta.label_tag }} {{ form2.citta }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fieldWrapper">
+                                            {{ form2.cap.errors }}
+                                            {{ form2.cap.label_tag }} {{ form2.cap }}
+                                        </td>
+                                        <td class="fieldWrapper">
+                                            {{ form2.via.errors }}
+                                            {{ form2.via.label_tag }} {{ form2.via }}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="fieldWrapper">
+                                            {{ form2.tipologia.errors }}
+                                            {{ form2.tipologia.label_tag }} {{ form2.tipologia }}
+                                        </td>
+                                        <td class="fieldWrapper">
+                                            {{ form2.n_componenti.errors }}
+                                            {{ form2.n_componenti.label_tag }} {{ form2.n_componenti }}
                                         </td>
                                     </tr>
                                 </table>

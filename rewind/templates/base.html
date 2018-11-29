@@ -57,7 +57,8 @@
                     <div class="top-nav left-menu">
                         <ul class="right top-ul chevron">
                             <li><a href="{% url 'home' %}">Home</a></li>
-                            <li><a href="{% url 'homeU' %}">Utente</a></li>
+                            <li><a href="{% url 'chisiamo' %}">Chi Siamo</a></li>
+                            <li><a href="{% url 'faq' %}">FAQ</a></li>
                         </ul>
                     </div>
                     <!-- right menu items -->
@@ -68,7 +69,7 @@
                             <li><a href="{% url 'logout' %}">Log Out</a></li>
                             {% else %}
                             <li><a href="{% url 'login' %}">Log In</a></li>
-                            <li><a href="{% url 'singup' %}">Sing Up</a></li>
+                            <li><a href="{% url 'signup' %}">Sign Up</a></li>
                             {% endif %}
                             {% if user.is_staff %}
                             <li><a href="/admin/">Admin</a></li>
@@ -130,7 +131,7 @@
                         <div class="s-12 l-6 footer-logo" ></div>
                     </div>
                     <div class="s-12 l-6">
-                        <a class="right text-size-12 text-primary-hover" href="https://www.t33.it/en/default.html">Design and coding<br> by rewind</a>
+                        <a class="right text-size-12 text-primary-hover" href="">Design and coding<br> by rewind</a>
                     </div>
                 </div>
             </section>
