@@ -1,0 +1,147 @@
+{% load static %}
+
+<!DOCTYPE html>
+ <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{% block title %}Progetto{% endblock title %}</title>
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="{% static 'WebMasters/css/components.css' %}">
+        <link rel="stylesheet" href="{% static 'WebMasters/css/icons.css' %}">
+        <link rel="stylesheet" href="{% static 'WebMasters/css/responsee.css' %}">
+        <link rel="stylesheet" href="{% static 'WebMasters/owl-carousel/owl.carousel.css' %}">
+        <link rel="stylesheet" href="{% static 'WebMasters/owl-carousel/owl.theme.css' %}">
+        <!-- CUSTOM STYLE -->
+        <link rel="stylesheet" href="{% static 'WebMasters/css/template-malta.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+        {% block css %}
+
+        {% endblock css %}
+        <script type="text/javascript" src="{% static 'WebMasters/js/jquery-2.2.4.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'WebMasters/js/jquery-ui.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'WebMasters/js/tooltip.js' %}"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header role="banner" class="position-absolute">
+            <!-- Top Navigation -->
+            <nav class="background-transparent background-primary-dott full-width sticky">
+                <div class="top-nav">
+                    <!-- mobile version logo -->
+                    <div class="logo hide-l hide-xl hide-xxl">
+                        <a href="{% url 'home' %}" class="logo">
+                            <!-- Logo White Version -->
+                            <img class="logo-white" src="{% static 'WebMasters/img/logodark.svg' %}" alt="logo">
+                            <!-- Logo Dark Version -->
+                            <img class="logo-dark" src="{% static 'WebMasters/img/logo.svg' %}" alt="logo">
+                        </a>
+                    </div>
+                    <p class="nav-text"></p>
+
+                    <!-- logo -->
+                    <ul class="logo-menu">
+                        <a href="{% url 'home' %}" class="logo">
+                            <!-- Logo White Version -->
+                            <img class="logo-white" src="{% static 'WebMasters/img/logodark.svg' %}" alt="logo">
+                            <!-- Logo Dark Version -->
+                            <img class="logo-dark" src="{% static 'WebMasters/img/logo.svg' %}" alt="logo">
+                        </a>
+                    </ul>
+
+                    <!-- left menu items -->
+                    <div class="top-nav left-menu">
+                        <ul class="right top-ul chevron">
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                        </ul>
+                    </div>
+                    <!-- right menu items -->
+                    <div class="top-nav right-menu">
+                        <ul class="top-ul chevron">
+                            {% if user.is_authenticated %}
+                            <li><a href="{% url 'password_change' %}">Password Change</a></li>
+                            <li><a href="{% url 'logout' %}">Log Out</a></li>
+                            {% else %}
+                            <li><a href="{% url 'login' %}">Log In</a></li>
+                            <li><a href="{% url 'singup' %}">Sing Up</a></li>
+                            {% endif %}
+                            {% if user.is_staff %}
+                            <li><a href="/admin/">Admin</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        {% block content %}
+
+        {% endblock content %}
+
+        <!-- FOOTER -->
+        <footer>
+            <!-- Social -->
+            <div class="background-primary padding text-center">
+            </div>
+            <!-- Main Footer -->
+            <section class="section background-dark">
+                <div class="line">
+                    <div class="margin2x">
+                        <div class="s-12 m-6 l-3 xl-5">
+                            <h4 class="text-white text-strong">Project</h4>
+                            <p>
+                                Project Idea <a class="text-more-info text-primary" href="/">Learn More</a>
+                            </p>
+                        </div>
+                        <div class="s-12 m-6 l-3 xl-2">
+                            <h4 class="text-white text-strong margin-m-top-30">Useful Links</h4>
+                            <a class="text-primary-hover" href="page.html">XXX</a><br>
+                            <a class="text-primary-hover" href="page.html">XXX</a><br>
+                            <a class="text-primary-hover" href="page.html">XXX</a>
+                        </div>
+                        <div class="s-12 m-6 l-3 xl-2">
+                            <h4 class="text-white text-strong margin-m-top-30">Term of Use</h4>
+                            <a class="text-primary-hover" href="page.html">XXX</a><br>
+                            <a class="text-primary-hover" href="page.html">XXX</a><br>
+                            <a class="text-primary-hover" href="page.html">XXX</a>
+                        </div>
+                        <div class="s-12 m-6 l-3 xl-3">
+                            <h4 class="text-white text-strong margin-m-top-30">Contact Us</h4>
+                            <p><i class="icon-sli-screen-smartphone text-primary"></i> XXX</p>
+                            <a class="text-primary-hover" href="mailto:contact@sampledomain.com"><i class="icon-mail text-primary"></i>  XXX<br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="background-dark">
+                <div class="line">
+                    <hr class="break margin-top-bottom-0" style="border-color: #777;">
+                </div>
+            </div>
+            <!-- Bottom Footer -->
+            <section class="padding-2x background-dark full-width">
+                <div class="line">
+                    <div class="s-12 l-6">
+                        <div class="s-12 l-6 footer-logo" ></div>
+                    </div>
+                    <div class="s-12 l-6">
+                        <a class="right text-size-12 text-primary-hover" href="https://www.t33.it/en/default.html">Design and coding<br> by WebMasters</a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+
+        <script type="text/javascript" src="{% static 'WebMasters/js/responsee.js' %}"></script>
+        <script type="text/javascript" src="{% static 'WebMasters/owl-carousel/owl.carousel.js' %}"></script>
+        <script type="text/javascript" src="{% static 'WebMasters/js/template-scripts.js' %}"></script>
+
+        {% block js %}
+
+        {% endblock js %}
+
+    </body>
+</html>
