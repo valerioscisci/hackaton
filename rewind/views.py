@@ -11,16 +11,6 @@ class HomePageView(TemplateView):
     def get(self, request, **kwargs):
         return render(request, 'home.html', context=None)
 
-# View for the page chi siamo
-
-class ChiSiamoView(TemplateView):
-    template_name = "Chi_Siamo.html"
-
-# View for the page FAQ
-
-class FAQView(TemplateView):
-    template_name = "FAQ.html"
-
 # View for the Log In System
 
 class AuthenticationView(TemplateView):

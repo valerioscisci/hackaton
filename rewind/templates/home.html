@@ -13,17 +13,231 @@
     <!-- Header -->
     <header class="section-top-padding background-image text-center" style="background-image:url({% static 'rewind/img/img.jpg' %})">
         <h1 class="text-middle text-white text-s-size-30 text-m-size-40 text-size-50 text-line-height-1 margin-bottom-40 margin-top-130">
-            Test Title
+            Benvenuti in ReCwind<br/><br/><br/>
         </h1>
 
         <!-- white full width arrow object -->
         <img class="arrow-object" src="{% static 'rewind/img/arrow-object-white.svg' %}" alt="">
     </header>
 
+    <section class="background-white">
+        <div class="line text-center">
+            <h2 class="text-dark text-size-50 text-m-size-40">Home</h2>
+            <hr class="break background-primary break-small break-center margin-bottom-50">
+        </div>
+        <div class="line">
+            <div>
+                <div class="s-12 m-12 l-12 margin-bottom-10">
+                    <div class="text-center">
+                        <i class="icon-sli-loop text-primary text-size-80 text-line-height-1"></i>
+                    </div>
+                    <div class="text-center">
+                        <p class="padding-2x text-size-20">
+                            Siamo Webmasters, una società che fornisce servizi web di supporto alle imprese
+                            ed enti locali riguardo il tema dell’economia circolare. ReCwind è un servizio web
+                            (sito+app mobile) che rende la raccolta differenziata un’esperienza informativa,
+                            trasparente, incentivante e di valore per il cittadino e per l’azienda/ente pubblico
+                            che lo utilizza.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="line text-center">
+        <div>
+            <div class="s-10 m-10 l-10 center margin-bottom-30">
+            <p class="text-size-30 text-line-height-1 margin-bottom-60 text-primary">
+                Iscriviti o accedi all'area riservata per vedere quanti punti hai, statistiche e avere accesso ai premi offerti!
+            </p>
+
+                 <div class="line text-center">
+                    <div class="s-12 m-12 l-6 margin-bottom-50">
+                        <a href="{% url 'login' %}"><button class="button button-doc buttonCN">Log In</button></a>
+                    </div>
+                    <div class="s-12 m-12 l-6 margin-bottom-50">
+                        <a href="{% url 'signup' %}"><button class="button button-doc buttonPF">Sign Up</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="chisiamo" class="background-green">
+        <div class="line text-center padding">
+            <h2 class="text-dark text-size-50 text-m-size-40">Chi Siamo</h2>
+            <hr class="break background-primary break-small break-center margin-bottom-50">
+        </div>
+        <div class="line">
+            <div class="padding">
+                <div class="s-12 m-6 l-6 margin-bottom-30">
+                    <div class="float-left">
+                        <i class="icon-sli-briefcase text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">ReCwind per le aziende </h3>
+                        <h5 class="text-strong text-primary text-size-10 text-line-height-1 margin-bottom-20">Servizi per le aziende/enti pubblici</h5>
+                        <em class="text-size-20">
+                            ReCwind per le imprese vuole essere non solo un servizio di supporto ma
+                            un braccio destro, continuamente teso, a supporto della vostra mission.
+                            Sappiamo e crediamo in ciò che fate e, in questa continua sfida, siamo accanto a voi.
+                        </em>
+                    </div>
+                </div>
+                <div class="s-12 m-6 l-6 margin-bottom-60">
+                    <div class="float-left">
+                        <i class="icon-sli-people text-primary text-size-40 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-60">
+                        <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-20">ReCwind per il cittadino</h3>
+                        <h5 class="text-strong text-primary text-size-10 text-line-height-1 margin-bottom-20">Servizi per il cittadino</h5>
+                        <em class="text-size-20">
+                            ReCwind per il cittadino vuole essere un’esperienza che lo accompagna
+                            in un viaggio che inizia da un gesto responsabile e termina con un
+                            regalo per sé e per la propria comunità.
+                            Con ReCwind ciò che per te è oggi un rifiuto, domani sarà una risorsa
+                            con un valore inestimabile…gratuitamente.
+                        </em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq">
+        <div class="line text-center padding">
+            <h2 class="text-dark text-size-50 text-m-size-40">FAQ</h2>
+            <hr class="break background-primary break-small break-center margin-bottom-50">
+        </div>
+        <div class="line">
+            <div class="padding">
+                <div class="float-left">
+                    <i class="question text-primary text-size-40 text-line-height-1"></i>
+                </div>
+                <div class="float-left">
+                    <i class="question text-primary text-size-40 text-line-height-1"></i>
+                </div>
+                 <div class="s-12 m-12 l-12 margin-bottom-30">
+                    <div class="float-left">
+                        <i class="icon-sli-question text-primary text-size-60 text-line-height-1"></i>
+                    </div>
+                    <div class="margin-left-80">
+                        <h3 class="text-strong text-size-40 text-line-height-1 margin-bottom-30">Domande Chieste Frequentemente</h3>
+                        <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">1. Come funziona il sistema di valutazione?</h4>
+                        <h5 class="text-dark text-size-20 margin-bottom-20">
+                            Ogni volta che l’operatore, nel giorno prestabilito, verrà presso la tua abitazione
+                            per ritirare il rifiuto, ti assegnerà un “punteggio” in base alla qualità e alla quantità.
+                        </h5>
+                        <span id="faq1_tooltip">
+                            <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">2. Criteri di valutazione?</h4>
+                            <div class="hidden">
+                                <h5 class="text-white text-size-10 text-line-height-1 margin-bottom-20">
+                                    La valutazione avverrà in base al peso del rifiuto prodotto ed in base alla qualità del rifiuto.
+                                </h5>
+                            </div>
+                        </span>
+                        <h5 class="text-dark text-size-20 margin-bottom-20">
+                            Sono quindi indicate tre categorie per quanto riguarda la qualità:<br/><br/>
+                            <ul>
+                                <li class="text-size-20 text-line-height-1.5 margin-bottom-10"><span class="text-strong">1) Categoria 0 - non sufficiente:</span> i rifiuti non rispettano i requisiti minimi per la raccolta (ad es: materiale indifferenziato nella plastica). L’immondizia non può essere ritirata;</li>
+                                <li class="text-size-20 text-line-height-1.5 margin-bottom-10"><span class="text-strong">2) Categoria 1 - sufficiente:</span> i rifiuti possono essere ritirati poiché rispettano i requisiti  minimi ma sono carenti sotto alcuni aspetti (ad es: vasetti di plastica non perfettamente lavati/puliti et cetera);</li>
+                                <li class="text-size-20 text-line-height-1.5 margin-bottom-10"><span class="text-strong">3) Categoria 2 - buono/ottimo:</span> i rifiuti possono essere ritirati poiché rispettano i requisiti minimi ed inoltre non sono carenti sotto nessun aspetto (ad es: vasetti/contenitori di plastica lavati, bottiglie di plastica schiacciati correttamente et cetera).</li>
+                            </ul>
+                        </h5>
+                        <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">3. Come guadagnare e spendere i punti?</h4>
+                        <h5 class="text-dark text-size-20 margin-bottom-20">
+                            I punti vengono assegnati quindi in base al comportamento dell’utente e alle valutazioni da lui ottenute nel tempo.
+                        </h5>
+                        <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">4. Come faccio a vedere il percorso che fanno i miei rifiuti?</h4>
+                        <h5 class="text-dark text-size-20 margin-bottom-20">
+                            Una volta che l’azienda di raccolta e smaltimento rifiuti della tua zona avrà aderito al programma,
+                            potrai accedere al tuo profilo: qui potrai trovare una sezione dove ti verrà mostrato il tracking dei
+                            rifiuti da te prodotti. Nel dettaglio potrai vedere dove (in quali centri di lavorazione) e come
+                            (con quali modalità e come verrà reimmesso nell’economia circolare) il tuo rifiuto verrà lavorato
+                            e gli verrà restituito nuovo valore aggiunto.
+                        </h5>
+                        <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">5. Come faccio a migliorare il mio punteggio?</h4>
+                        <h5 class="text-dark text-size-20 margin-bottom-20">
+                            Puoi migliorare il tuo punteggio attenendoti a quanto riportato nel punto 2 – criteri di valutazione.
+                        </h5>
+                        <h4 class="text-strong text-primary text-size-30 text-line-height-1 margin-bottom-20">6. Dove e come posso spendere i miei punti?</h4>
+                        <ul>
+                            <li class="text-size-20 text-line-height-1.5 margin-bottom-10"><span class="text-strong">a) </span>Ottenendo buoni/voucher a partire dai punti da te accumulati da spendere in attività/servizi della tua zona (che hanno deciso di aderire al nostro programma): la nostra iniziativa mira ad accrescere e rendere migliori tutte le realtà locali;</li>
+                            <li class="text-size-20 text-line-height-1.5 margin-bottom-10"><span class="text-strong">b) </span>Contribuendo a sostenere organizzazioni ed enti no-profit della tua zona come ad esempio scuole, ludoteche e così via: potrai utilizzare parte (o tutti, se vorrai) dei punti da te accumulati per permettere a tali strutture di poter ricevere del materiale di supporto al loro funzionamento (ad es.: forniture di risme di carta riciclata, pennarelli, attrezzature per il gioco e lo svago dei bambini ecc.).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#" id="backTop"><i class="icon-sli-arrow-up-circle text-strong text-primary"></i></a>
+
 </main>
 
 {% endblock content %}
 
 {% block js %}
+<script>
 
+    $( document ).ready(function() {
+        $('#faq1_tooltip').hover(
+          function () {
+            $(this).addClass('tooltip');
+            $(this).children('div').addClass('tooltipdiv');
+            //function to show the tooltip
+            tippy('.tooltip', {
+                html: '.tooltipdiv',
+                hideOnClick: false,
+                performance: true,
+                duration: [400, 200],
+                placement: 'bottom-start',
+                maxWidth: '450px',
+                touchHold: true,
+            })
+          },
+          function () {
+            $(this).children('div').removeClass('tooltipdiv');
+            $(this).removeClass('tooltip');
+          }
+        );
+
+        if ($('#backTop').length) {
+            var scrollTrigger = 500, // px
+            backToTop = function () {
+                var scrollTop = $(window).scrollTop();
+                if (scrollTop > scrollTrigger) {
+                    $('#backTop').show(400);
+                } else {
+                    $('#backTop').hide(400);
+                }
+            };
+            backToTop();
+            $(window).on('scroll', function () {
+                backToTop();
+            });
+            $('#backTop').on('click', function (e) {
+                e.preventDefault();
+                $('html,body').animate({
+                    scrollTop: 100
+                }, 700);
+            });
+        }
+
+        $('a[href*="#"]:not([href="#"])').click(function() {
+            var offset = -130; // <-- change the value here
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                if (target.length) {
+                    $('html, body').animate({
+                        scrollTop: target.offset().top + offset
+                    }, 700);
+                    return false;
+                }
+            }
+        });
+    });
+
+</script>
 {% endblock js %}

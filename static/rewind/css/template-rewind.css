@@ -316,8 +316,8 @@ nav.fixed, .fixed nav {
   position: relative;
   background-image: url('../img/logo.png');
   background-repeat: no-repeat;
-  background-size: 5em 4em;
-  width: 5em;
+  background-size: 7em 4em;
+  width: 7em;
   height: 4em;
 }
 /* Aside Nav */
@@ -412,7 +412,7 @@ aside.aside-left {
   color: #fff !important;
 }
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
-  color: #28a5df !important;
+  color: #32CD32 !important;
 }
 .text-error, .errorlist{
   color: #E15A45 !important;
@@ -1687,7 +1687,7 @@ hr.break.background-white, .primary-color-white hr.break-small.background-primar
 hr.break.background-primary, .primary-color-primary hr.break.background-primary {
   background: none!important;
   background-color: none!important;
-  border-top: 2px dotted #28a5df;
+  border-top: 2px dotted #32CD32;
 }
 hr.break.background-dark, .primary-color-dark hr.break.background-primary {
   background: none!important;

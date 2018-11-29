@@ -57,8 +57,9 @@
                     <div class="top-nav left-menu">
                         <ul class="right top-ul chevron">
                             <li><a href="{% url 'home' %}">Home</a></li>
-                            <li><a href="{% url 'chisiamo' %}">Chi Siamo</a></li>
-                            <li><a href="{% url 'faq' %}">FAQ</a></li>
+                            <li><a href="#chisiamo">Chi Siamo</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#contatti">Contatti</a></li>
                             {% if user.is_authenticated %}
                             <li><a href="{% url 'areariservata' %}">Area Riservata</a></li>
                             {% endif %}
@@ -88,7 +89,7 @@
         {% endblock content %}
 
         <!-- FOOTER -->
-        <footer>
+        <footer id="contatti">
             <!-- Social -->
             <div class="background-primary padding text-center">
             </div>
@@ -96,28 +97,25 @@
             <section class="section background-dark">
                 <div class="line">
                     <div class="margin2x">
-                        <div class="s-12 m-6 l-3 xl-5">
-                            <h4 class="text-white text-strong">Project</h4>
-                            <p>
-                                Project Idea <a class="text-more-info text-primary" href="/">Learn More</a>
+                        <div class="s-12 m-4 l-4 xl-6">
+                            <h4 class="text-white text-strong">Il Nostro Progetto</h4>
+                            <p class="text-primary">
+                                ReCwind è un servizio web
+                                (sito+app mobile) che rende la raccolta differenziata un’esperienza informativa,
+                                trasparente, incentivante e di valore per il cittadino e per l’azienda/ente pubblico
+                                che lo utilizza.
                             </p>
                         </div>
-                        <div class="s-12 m-6 l-3 xl-2">
-                            <h4 class="text-white text-strong margin-m-top-30">Useful Links</h4>
-                            <a class="text-primary-hover" href="page.html">XXX</a><br>
-                            <a class="text-primary-hover" href="page.html">XXX</a><br>
-                            <a class="text-primary-hover" href="page.html">XXX</a>
+                        <div class="s-12 m-4 l-4 xl-2">
+                            <h4 class="text-white text-strong margin-m-top-30">I Nostri Partner</h4>
+                            <a class="text-primary-hover" href="http://www.anconambiente.it/">Ancona Ambiente</a><br>
+                            <a class="text-primary-hover" href="https://www.amiu.genova.it/">AMIU Genova</a><br>
+                            <a class="text-primary-hover" href="http://www.comune.pineto.te.it/">Comune di Pineto</a>
                         </div>
-                        <div class="s-12 m-6 l-3 xl-2">
-                            <h4 class="text-white text-strong margin-m-top-30">Term of Use</h4>
-                            <a class="text-primary-hover" href="page.html">XXX</a><br>
-                            <a class="text-primary-hover" href="page.html">XXX</a><br>
-                            <a class="text-primary-hover" href="page.html">XXX</a>
-                        </div>
-                        <div class="s-12 m-6 l-3 xl-3">
-                            <h4 class="text-white text-strong margin-m-top-30">Contact Us</h4>
-                            <p><i class="icon-sli-screen-smartphone text-primary"></i> XXX</p>
-                            <a class="text-primary-hover" href="mailto:contact@sampledomain.com"><i class="icon-mail text-primary"></i>  XXX<br>
+                        <div class="s-12 m-4 l-4 xl-4">
+                            <h4 class="text-white text-strong margin-m-top-30">Contattaci</h4>
+                            <p><i class="icon-sli-screen-smartphone text-primary"></i> +39 331 6188304</p>
+                            <a class="text-primary-hover" href="mailto:ReCwind@recwind.it"><i class="icon-mail text-primary"></i> ReCwind@recwind.it<br>
                         </div>
                     </div>
                 </div>

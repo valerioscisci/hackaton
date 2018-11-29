@@ -243,10 +243,10 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
     transition: all .3sec;
 }
 .button.button-doc.buttonCN, .button.button-doc-small.buttonCNSmall {
-    background-color: #C4C4C4;
-    -webkit-box-shadow: 0px 0px 25px 3px rgba(196,196,196,1);
-    -moz-box-shadow: 0px 0px 25px 3px rgba(196,196,196,1);
-    box-shadow: 0px 0px 25px 3px rgba(196,196,196,1);
+    background-color: #DCDCDC;
+    -webkit-box-shadow: 0px 0px 25px 3px rgba(220, 220, 220, 1);
+    -moz-box-shadow: 0px 0px 25px 3px rgba(220, 220, 220, 1);
+    box-shadow: 0px 0px 25px 3px rgba(220, 220, 220, 1);
 }
 .buttonCNSmall {
     padding: .5rem !important;
@@ -256,10 +256,10 @@ a.tooltip-content.tooltip-bottom,.tooltip-content.tooltip-bottom {
     z-index: 99999;
 }
 .button.button-doc.buttonPF, .button.button-doc-small.buttonPFSmall {
-    background-color: #b19cd9;
-    -webkit-box-shadow: 0px 0px 25px 3px rgba(177,156,217,1);
-    -moz-box-shadow: 0px 0px 25px 3px rgba(177,156,217,1);
-    box-shadow: 0px 0px 25px 3px rgba(177,156,217,1);
+    background-color: #4CE74C;
+    -webkit-box-shadow: 0px 0px 25px 3px rgba(76, 231, 76, 1);
+    -moz-box-shadow: 0px 0px 25px 3px rgba(76, 231, 76, 1);
+    box-shadow: 0px 0px 25px 3px rgba(76, 231, 76, 1);
 }
 .buttonPFSmall {
     padding: .5rem !important;
