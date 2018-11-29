@@ -1,5 +1,5 @@
 from django.urls import path
-from WebMasters import views
+from rewind import views
 from django.contrib.auth import views as auth_views
 
 # General Links

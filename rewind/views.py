@@ -1,7 +1,7 @@
 # DJANGO IMPORTS
 from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
-from WebMasters.forms import SingUpForm
+from rewind.forms import SingUpForm
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
 

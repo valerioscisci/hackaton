@@ -25,13 +25,13 @@ SECRET_KEY = '-^9vv5bvh7yx5l)am%5&zx-1&5v*n3!jnqrx1l9f0mg+=@f-s^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'WebMasters',
+    'rewind',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

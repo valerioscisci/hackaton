@@ -1,7 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1c758c5-5373-4e28-8e2c-b3b1c2e54e0e" name="Default Changelist" comment="" />
+    <list default="true" id="f1c758c5-5373-4e28-8e2c-b3b1c2e54e0e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/registration/password_change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/registration/password_change_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/templates/registration/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebMasters/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/progetto/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/progetto/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/css/components.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/css/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/css/responsee.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/css/template-malta.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/mfglabsiconset-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/mfglabsiconset-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/mfglabsiconset-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/fonts/mfglabsiconset-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/img/arrow-object-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/img/img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/img/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/img/logodark.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/js/jquery-2.2.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/js/responsee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/js/template-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/js/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/owl.theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/WebMasters/owl-carousel/owl.video.play.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +57,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebMasters/templates/base.html">
+        <entry file="file://$PROJECT_DIR$/rewind/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-349">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="209">
+              <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -35,6 +81,9 @@
       <find>.text-e</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -51,10 +100,11 @@
         <option value="$PROJECT_DIR$/WebMasters/templates/registration/signup.html" />
         <option value="$PROJECT_DIR$/WebMasters/views.py" />
         <option value="$PROJECT_DIR$/WebMasters/templates/base.html" />
+        <option value="$PROJECT_DIR$/rewind/templates/home.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-12" />
     <option name="y" value="-12" />
     <option name="width" value="1944" />
@@ -81,44 +131,18 @@
             <path>
               <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
               <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="rewind" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
               <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
+              <item name="rewind" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="progetto" type="b2602c69:ProjectViewProjectNode" />
               <item name="progetto" type="462c0819:PsiDirectoryNode" />
-              <item name="WebMasters" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,7 +152,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../BitBucket/meae_web_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -158,6 +182,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -169,7 +194,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -270,8 +295,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebMasters/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-349">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rewind/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rewind/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
         </state>
       </provider>
     </entry>
