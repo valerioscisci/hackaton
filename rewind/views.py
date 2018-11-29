@@ -16,6 +16,15 @@ class HomePageView(TemplateView):
 class AuthenticationView(TemplateView):
     template_name = "login.html"
 
+class HomeUView(TemplateView):
+    template_name = "utente/homeU.html"
+
+class PuntiRaccoltiView(TemplateView):
+    template_name = "utente/puntiRaccolti.html"
+
+class InfoView(TemplateView):
+    template_name = "utente/info.html"
+
 # View for the Sing Up system
 
 def signup(request):
@@ -24,7 +33,7 @@ def signup(request):
         if form.is_valid():
             form.save()
             username = form.cleaned_data.get('username')
-            user = User.objects.get(username=username)
+            user = Utente.objects.get(username=username)
             raw_password = form.cleaned_data.get('password')
             user.set_password(raw_password)
             user.save()
@@ -33,3 +42,11 @@ def signup(request):
     else:
         form = SingUpForm()
     return render(request, 'registration/signup.html', {'form': form})
+
+def get_homeU(request):
+
+     #TODO: Considerare username dalla richiesta
+     #username = request.POST['username']
+     utente = Utente.objects.get( username = username )
+
+     return render(request, 'utente/homeU.html', {'utente': utente})

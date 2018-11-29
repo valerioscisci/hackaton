@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}{{ block.super }} - Login{% endblock title %}
+
+{% block css %}
+
+{% endblock css %}
+
+{% block content %}
+
+<main role="main">
+    <!-- Header -->
+    <header class="padding-3x background-image text-center" style="background-color: #CE1B12">
+
+    </header>
+
+    <section class="padding-2x background-white">
+        <div class="line text-center">
+            <h2 class="text-dark text-size-50 text-m-size-40">Home Utente</h2>
+        </div>
+    </section>
+
+    <!-- Home Utente -->
+
+    <section>
+
+        <h3>Ciao {{ utente.username }}</h3>
+
+
+        <ul>
+            <li><a href="{% url 'puntiRaccoltiU' %}">Punti Raccolti</a></li>
+            <li><a href="#">Grafici</a></li>
+            <li><a href="#">Tracking</a></li>
+            <li><a href="{% url 'infoU' %}">Info</a></li>
+            <li><a href="#">Contatti</a></li>
+        </ul>
+
+
+    </section>
+
+</main>
+
+{% endblock content %}
+
+{% block js %}
+
+{% endblock js %}
