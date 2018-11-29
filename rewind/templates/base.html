@@ -59,6 +59,9 @@
                             <li><a href="{% url 'home' %}">Home</a></li>
                             <li><a href="{% url 'chisiamo' %}">Chi Siamo</a></li>
                             <li><a href="{% url 'faq' %}">FAQ</a></li>
+                            {% if user.is_authenticated %}
+                            <li><a href="{% url 'areariservata' %}">Area Riservata</a></li>
+                            {% endif %}
                         </ul>
                     </div>
                     <!-- right menu items -->
@@ -131,7 +134,7 @@
                         <div class="s-12 l-6 footer-logo" ></div>
                     </div>
                     <div class="s-12 l-6">
-                        <a class="right text-size-12 text-primary-hover" href="">Design and coding<br> by rewind</a>
+                        <a class="right text-size-12 text-primary-hover" href="">Design and coding<br> by WebMasters</a>
                     </div>
                 </div>
             </section>

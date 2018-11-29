@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load static %}
+{% load groups_extra %}
+
+{% block title %}{{ block.super }} - Area Riservata{% endblock title %}
+
+{% block css %}
+
+{% endblock css %}
+
+{% block content %}
+
+<main role="main">
+    <!-- Header -->
+    <header class="section-top-padding background-image text-center" style="background-color: #228B22">
+
+    </header>
+
+    <section class="padding-2x background-white">
+        <div class="line text-center">
+            <h2 class="text-dark text-size-50 text-m-size-40">Area Riservata</h2>
+        </div>
+    </section>
+
+    {% if request.user|has_group:"Azienda" %}
+    Test Azienda
+    {% elif request.user|has_group:"Utenti" %}
+    Test Utente
+    {% endif %}
+
+    {% if request.user.is_staff %}
+
+    <meta http-equiv="REFRESH" content="0;url=/admin">
+
+    {% endif %}
+
+</main>
+
+{% endblock content %}
+
+{% block js %}
+
+{% endblock js %}

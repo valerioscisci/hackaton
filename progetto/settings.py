@@ -130,5 +130,5 @@ STATICFILES_DIRS = [
 
 #User Authentication
 
-LOGIN_REDIRECT_URL = 'home'
+LOGIN_REDIRECT_URL = 'areariservata'
 
