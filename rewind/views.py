@@ -45,3 +45,29 @@ def signup(request):
         #form2 = SignUp2Form()
     return render(request, 'registration/signup.html', {'form': form})
 
+def popola(request):
+
+    id = int(request.GET.get('id_cestino'))
+    quant = int(request.GET.get('quantita'))
+    qual = int(request.GET.get('qualita'))
+
+    """
+    try:
+        obj = Netturbino.objects.get(idcestino=id)
+        obj.quantita = int(obj.quantita) + quant
+        obj.qualita = int(obj.qualita) + qual
+        obj.save()
+    except ObjectDoesNotExist:
+        object = Netturbino.objects.create(idcestino=id)
+        object.save()
+    """
+
+    object = Netturbino.objects.create(idcestino=id, quantita=quant, qualita=qual)
+    object.save()
+
+def visualizzaDati(request):
+
+    lista = Netturbino.objects.all()
+
+    return render(request, 'Dati.html', {'lista': lista})
+

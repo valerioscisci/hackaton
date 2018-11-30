@@ -17,3 +17,16 @@ urlpatterns += [
     path('password_change/', auth_views.password_change, {'template_name': 'registration/password_change.html'} , name='password_change'),  #Password Change
     path('password-change-done/', auth_views.password_change_done, {'template_name': 'registration/password_change_done.html'}, name='password_change_done'),  #Password Change
 ]
+
+# rest
+urlpatterns += [
+
+    path('netturbino/', views.popola)
+]
+
+# utente
+urlpatterns += [
+
+    path('visualizzaDati/', views.visualizzaDati , name='VisualizzaDati')
+
+]

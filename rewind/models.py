@@ -31,3 +31,9 @@ from django.contrib.auth.models import User
 #
 # class CodiciRegistrazione(models.Model):
 #     codice = models.CharField(max_length=30, blank=True)
+
+class Netturbino(models.Model):
+
+    idcestino = models.IntegerField()
+    quantita = models.IntegerField()
+    qualita = models.IntegerField()
